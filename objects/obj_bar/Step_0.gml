@@ -19,9 +19,12 @@ else {
 //segment checks
 if place_meeting(x, y, obj_seg){
 	_i = instance_place(x, y, obj_seg)
-	seg[percent] = _i.type
-	percent++
-	percent_disp+=5
+	
+	switch _i.type {
+		case 2: {percent--; percent_disp-=5} break;
+		default: {seg[percent] = _i.type percent++; percent_disp+=5} break;
+	}
+
 	instance_destroy(_i.id)
 }
 
