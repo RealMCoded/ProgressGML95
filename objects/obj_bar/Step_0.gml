@@ -1,5 +1,6 @@
 /// @description
 
+//move the bar
 if (!drag) {
    if (mouse_check_button(mb_left)) {
       drag = true;
@@ -24,6 +25,7 @@ if place_meeting(x, y, obj_seg){
 	instance_destroy(_i.id)
 }
 
+//win checks
 if percent > 19 {
 	//u win	
 }
