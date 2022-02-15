@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "6ce03b78-974a-42a8-8a85-549f76f354be",
-            "Value": {
-                "id": "b55ca199-1563-42bd-9758-9ed320d73273",
-                "resourcePath": "sprites\\invis\\invis.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "72dd0ee7-e1ee-4d32-9be6-a39bd169d6c1",
             "Value": {
                 "id": "4e8afadb-8d93-41ab-a137-22008220328e",
