@@ -5,3 +5,4 @@ drag = false;
 
 seg = []
 percent=0
+percent_disp=0
