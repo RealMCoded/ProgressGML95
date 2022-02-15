@@ -18,7 +18,7 @@ else {
 //segment checks
 if place_meeting(x, y, obj_seg){
 	_i = place_meeting(x, y, obj_seg)
-	seg[percent] = 1
+	seg[percent] = _i.type
 	percent++
 	instance_destroy(_i.id)
 }
