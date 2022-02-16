@@ -38,5 +38,9 @@ if place_meeting(x, y, obj_seg_rnd){
 
 //win checks
 if percent > 19 {
-	//u win	
+	global.level++
+	ini_open("save.ini")
+	ini_write_real("scores", "level", global.level)
+	ini_close()
+	room_restart()
 }

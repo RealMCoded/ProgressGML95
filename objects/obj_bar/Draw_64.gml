@@ -6,3 +6,5 @@ if DEBUG {
 	draw_text(32, 32, seg)
 	draw_text(32, 64, percent)
 }
+
+draw_text(room_width/2, 32, "Best: [placeholder]\nLevel " + string(global.level))
