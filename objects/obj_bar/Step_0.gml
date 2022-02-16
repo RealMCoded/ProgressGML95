@@ -16,31 +16,32 @@ else {
    }
 }
 
-//segment checks
 if place_meeting(x, y, obj_seg){
 	_i = instance_place(x, y, obj_seg)
 	
 	switch _i.type {
-		case 2: {percent--; percent_disp-=5} break;
-		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break;
-		case 4: {game_restart()} break;
-		case 5: {} break;
-		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break;
-		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break;
+		case 2: {percent--; percent_disp-=5} break; //Minus
+		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break; //x2
+		case 4: {game_restart()} break; //Red
+		case 5: {} break; //null
+		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break; //Green
+		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break; //Any other segment
 	}
 
 	instance_destroy(_i.id)
 }
 
+//Random segment checks
 if place_meeting(x, y, obj_seg_rnd){
 	_i = instance_place(x, y, obj_seg_rnd)
 	instance_destroy(_i.id)
-	
-	_i = instance_create_layer(x, y, layer, obj_seg)
+	_i = instance_create_layer(x, y, layer, obj_seg) //cheating by making a segment at the bar's location.
 }
 
 //win checks
 if percent > 19 {
+	
+	//TEMPORARY WIN CODE. REWORK THIS!
 	global.level++
 	ini_open("save.ini")
 	ini_write_real("scores", "level", global.level)
