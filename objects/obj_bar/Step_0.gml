@@ -29,6 +29,13 @@ if place_meeting(x, y, obj_seg){
 	instance_destroy(_i.id)
 }
 
+if place_meeting(x, y, obj_seg_rnd){
+	_i = instance_place(x, y, obj_seg_rnd)
+	instance_destroy(_i.id)
+	
+	_i = instance_create_layer(x, y, layer, obj_seg)
+}
+
 //win checks
 if percent > 19 {
 	//u win	
