@@ -12,5 +12,4 @@ for(var i=0; i < menuRange+1; i++) {
 	daopt = string_replace_all(daopt, "[s" + string(i)+"]", "")
 }
 
-draw_set_color(c_white)
-draw_text(x, y, daopt)
+draw_text_color(x, y, daopt, c_white, c_white, c_white, c_white, 1)
