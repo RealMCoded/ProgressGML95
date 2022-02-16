@@ -25,6 +25,7 @@ if place_meeting(x, y, obj_seg){
 		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break;
 		case 4: {game_restart()} break;
 		case 5: {} break;
+		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break;
 		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break;
 	}
 
