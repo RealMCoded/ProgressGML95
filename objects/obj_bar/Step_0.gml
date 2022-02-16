@@ -23,6 +23,8 @@ if place_meeting(x, y, obj_seg){
 	switch _i.type {
 		case 2: {percent--; percent_disp-=5} break;
 		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break;
+		case 4: {game_restart()} break;
+		case 5: {} break;
 		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break;
 	}
 
