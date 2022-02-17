@@ -7,7 +7,7 @@ selected = 0 //can be a int for ease of use
 
 daopt=""
 
-menuRange=1
+menuRange=0
 
 isBooting=0
 
