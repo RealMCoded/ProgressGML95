@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_os_95",
+    "name": "rm_os",
     "id": "ec3b2267-4605-4afd-9916-05c7ee4042a0",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

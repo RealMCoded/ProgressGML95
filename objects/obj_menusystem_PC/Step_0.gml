@@ -14,11 +14,10 @@ if selected = -1 selected++
 
 #region options
 
-if key_next = 1 {
-		switch selected {
-			case 0: room_goto(rm_os_95) break;	
-			default: selected = 0 break;	
-		}
+if key_next = 1 and isBooting=0 {
+	isBooting=1
+	text = "starting the system"
+	alarm[0] = room_speed * 1
 }
 
 #endregion

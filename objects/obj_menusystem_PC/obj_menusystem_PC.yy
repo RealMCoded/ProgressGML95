@@ -2,7 +2,7 @@
     "id": "ab540b9a-7fef-4efc-bad2-d7df3009e6ae",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_menusystem_new",
+    "name": "obj_menusystem_PC",
     "eventList": [
         {
             "id": "3914d4c6-cc4a-4cbb-a66c-14b82eb17417",
@@ -32,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
+            "m_owner": "ab540b9a-7fef-4efc-bad2-d7df3009e6ae"
+        },
+        {
+            "id": "650a3f80-a7de-4f8a-a00a-bd6a8267d909",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "ab540b9a-7fef-4efc-bad2-d7df3009e6ae"
         }
     ],
