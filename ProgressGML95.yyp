@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "f8fc73ef-029a-4ada-a4d5-4d514e0d9a1f",
+            "Value": {
+                "id": "b3e5d40f-d03b-4a0a-81ff-80870085a1b5",
+                "resourcePath": "scripts\\audio_play_sound_ext\\audio_play_sound_ext.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f9966bf9-5714-4e8c-ac28-0e704ccbbaef",
             "Value": {
                 "id": "8f56a14c-7ecf-4c3b-9c63-75dfb4a2928e",
@@ -368,7 +376,8 @@
         }
     ],
     "script_order": [
-        "f8a67f89-7e6b-44d7-aee5-e804e0bef816"
+        "f8a67f89-7e6b-44d7-aee5-e804e0bef816",
+        "f8fc73ef-029a-4ada-a4d5-4d514e0d9a1f"
     ],
     "tutorial": ""
 }
