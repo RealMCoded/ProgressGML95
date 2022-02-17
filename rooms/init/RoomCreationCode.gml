@@ -25,7 +25,15 @@ ini_close()
 
 #region Load Assets
 
+#region Sprites
 global.sprite[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\95\\wallpaper6.png", 1, 0, 1, 0, 0)
+#endregion
+
+#region Backgrounds
+#endregion
+
+#region Sounds
+#endregion
 
 #endregion
 
