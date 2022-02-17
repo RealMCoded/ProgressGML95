@@ -11,4 +11,4 @@ menuRange=1
 
 isBooting=0
 
-text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]"
+text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]"
