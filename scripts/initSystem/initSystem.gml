@@ -9,4 +9,4 @@ global.level = ini_read_real(global.system, "level", 1)
 ini_close()
 
 //Go to the room.
-room_goto(rm_os)
+room_goto(rm_bootGraphic)

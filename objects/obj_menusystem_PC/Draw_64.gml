@@ -11,3 +11,6 @@ for(var i=0; i < menuRange+1; i++) {
 }
 
 draw_text_color(x, y, daopt, c_white, c_white, c_white, c_white, 1)
+
+
+draw_text(16, 16, "ProgressGML95 - Recration created by stuartt_mcoded. Original game created by icoeye.")
