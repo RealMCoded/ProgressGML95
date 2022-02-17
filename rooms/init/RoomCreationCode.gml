@@ -25,8 +25,7 @@ ini_close()
 
 #region Load Assets
 
-global.assets[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\95\\sky2.jpg", 1, 0, 1, 0, 0)
-//show_debug_message(global.installLocation + "\\wallpapers.desktop\\skins\\95\\sky2.jpg")
+global.assets[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\95\\wallpaper6.png", 1, 0, 1, 0, 0)
 
 #endregion
 
