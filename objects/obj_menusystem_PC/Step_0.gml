@@ -20,6 +20,7 @@ if key_next = 1 and isBooting=0 {
 	//Set system text
 	switch selected {
 		case 0: text = "Starting Progressbar 95..." break;
+		case 1: text = "Starting Progressbar 95 Plus..." break;
 		default: text = "staring a system that has not been defined yet whoops" break;
 	}
 	alarm[0] = room_speed * 1
