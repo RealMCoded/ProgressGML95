@@ -15,3 +15,5 @@ sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.syste
 
 //Go to the room.
 room_goto(rm_bootGraphic)
+
+//audio_play_sound_ext(global.installLocation + "\\sound\\starthdd.mp3", 3, 0) //gm can't play MP3s :(
