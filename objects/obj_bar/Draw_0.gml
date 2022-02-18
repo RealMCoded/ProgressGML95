@@ -9,4 +9,4 @@ for(var i=0; i < percent; i++) {
 draw_set_color(c_white)
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
-draw_text(x+sprite_get_width(sprite_index)/2, y+sprite_get_height(sprite_index)/2, string(percent_disp) + "%")
+draw_text(x+190, y+43, string(percent_disp) + "%")

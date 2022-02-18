@@ -25,8 +25,8 @@ ini_close()
 
 #region Load Assets
 
-#region Sprites
-global.sprite[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\95\\wallpaper6.png", 1, 0, 1, 0, 0)
+#region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
+global.sprite[0] = spr_null //
 #endregion
 
 #region Backgrounds

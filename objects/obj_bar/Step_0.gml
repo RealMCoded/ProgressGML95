@@ -35,7 +35,17 @@ if place_meeting(x, y, obj_seg){
 if place_meeting(x, y, obj_seg_rnd){
 	_i = instance_place(x, y, obj_seg_rnd)
 	instance_destroy(_i.id)
-	_i = instance_create_layer(x, y, layer, obj_seg) //cheating by making a segment at the bar's location.
+	
+	_type = irandom_range(0,5)
+	
+	switch _type {
+		case 2: {percent--; percent_disp-=5} break; //Minus
+		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break; //x2
+		case 4: {game_restart()} break; //Red
+		case 5: {} break; //null
+		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break; //Green
+		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break; //Any other segment
+	}
 }
 
 //win checks
