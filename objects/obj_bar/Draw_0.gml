@@ -1,5 +1,6 @@
 /// @description
 draw_self()
+//draw_sprite_part(sprite_index, 0, 65, 21, 380, 86, x, y)
 
 //Draw segments
 for(var i=0; i < percent; i++) {
