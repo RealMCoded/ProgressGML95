@@ -27,6 +27,7 @@ ini_close()
 
 #region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
 global.sprite[0] = spr_null //
+global.sprite[1] = spr_null
 #endregion
 
 #region Backgrounds

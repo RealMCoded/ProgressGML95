@@ -2,7 +2,7 @@
 {
     "name": "rm_bootGraphic",
     "id": "e3d50619-edf7-42e8-a7dd-7584b476be46",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
