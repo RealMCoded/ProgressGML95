@@ -26,8 +26,8 @@ ini_close()
 #region Load Assets
 
 #region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
-global.sprite[0] = spr_null //
-global.sprite[1] = spr_null
+global.sprite[0] = spr_null //Loading bg
+global.sprite[1] = spr_null //icon
 #endregion
 
 #region Backgrounds

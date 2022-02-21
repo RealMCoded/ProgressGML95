@@ -11,11 +11,13 @@ ini_close()
 //Define assets
 global.sprite[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\sky.png", 1, 0, 1, 0, 0)
 
-switch global.system {
+/*switch global.system {
 	case "95": global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 512, 256) break;
 	case "95plus": global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128) break;
 	default: break;	
-}
+}*/
+
+global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128)
 
 sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22) 
 
