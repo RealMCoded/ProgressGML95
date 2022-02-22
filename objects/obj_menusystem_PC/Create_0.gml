@@ -11,4 +11,4 @@ menuRange=3
 
 isBooting=0
 
-text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]\n\nCyrus-OS [s2]\n\n[TEST] Custom [s3]"
+text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]\n\nCyrus-OS Version 3.1 [s2]\n\n[TEST] Custom [s3]"

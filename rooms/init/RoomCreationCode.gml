@@ -26,7 +26,8 @@ ini_close()
 #region Load Assets
 
 #region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
-global.sprite[0] = spr_null //icon
+global.sprite[0] = spr_null //Loading icon
+global.sprite[1] = spr_null //GUI
 #endregion
 
 #region Backgrounds
@@ -37,6 +38,14 @@ global.wallpaper[1] = spr_null //Wallpaper1
 #region Sounds
 
 //sounds no work rn due to gm not liking MP3s :(
+
+#endregion
+
+#region fonts
+
+global.font[0] = font_add(global.installLocation + "\\Fonts\\DOSFont.ttf", 12, false, false, 32, 127) //DOSFont
+
+global.font[1] = font_add(global.installLocation + "\\Fonts\\progresspixel.ttf", 12, false, false, 32, 127) //progresspixel
 
 #endregion
 

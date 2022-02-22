@@ -16,9 +16,12 @@ if file_exists(global.installLocation + "\\wallpapers.desktop\\skins\\" + global
 
 global.sprite[0] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128)
 
+global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\gui.png", 1, 0, 0, 0, 0)
+
 sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
 
 //TODO: FIX BAR COLISION
 
 //Go to the room
+draw_set_font(global.font[1])
 room_goto(rm_bootGraphic)
