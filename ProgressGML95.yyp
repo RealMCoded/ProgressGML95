@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5dff1080-de6f-47f7-8e1e-8bc39e33fb1b",
+            "Value": {
+                "id": "d1d75fc2-5d0f-40f8-a7d7-c0304d55f524",
+                "resourcePath": "datafiles_yy\\art\\osloading.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5edd4547-6333-45f4-8cd7-dfc44978a852",
             "Value": {
                 "id": "c9ed634d-ca48-4dc1-9440-bc9d1977cfa2",
@@ -316,6 +324,14 @@
                 "id": "0fc5573b-5992-47c7-9d4c-b1801ea918af",
                 "resourcePath": "objects\\obj_bootGraphic\\obj_bootGraphic.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b5cd51a8-cde7-4c5f-9fc3-7fc248035127",
+            "Value": {
+                "id": "c783a1c2-1c53-4008-b198-268cd081ca54",
+                "resourcePath": "datafiles_yy\\art\\skins\\CYRUS\\gui.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
