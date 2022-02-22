@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "8c489d09-2c19-42d1-818e-45c87052449d",
+            "Value": {
+                "id": "8632e60e-3fa8-4da0-a017-e52ec19e6e32",
+                "resourcePath": "datafiles_yy\\wallpapers.desktop\\skins\\CYRUS\\wallpaper1.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8c7d73d5-f976-4f90-b051-b807c651e08b",
             "Value": {
                 "id": "f2b824e5-2212-47d9-a158-1e338468f024",

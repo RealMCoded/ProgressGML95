@@ -8,12 +8,13 @@ ini_open("save.ini")
 global.level = ini_read_real(global.system, "level", 1)
 ini_close()
 
-if global.system = "CYRUS" global.installLocation = program_directory
+if global.system = "CYRUS" global.installLocation = program_directory //ez work around ha
 
 //Define assets
-global.sprite[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\sky.png", 1, 0, 1, 0, 0)
+global.wallpaper[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\sky.png", 1, 0, 1, 0, 0)
+if file_exists(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.png") global.wallpaper[1] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.png", 1, 0, 1, 0, 0) else global.wallpaper[1] = global.wallpaper[0]
 
-global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128)
+global.sprite[0] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128)
 
 sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
 

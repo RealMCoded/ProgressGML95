@@ -26,14 +26,18 @@ ini_close()
 #region Load Assets
 
 #region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
-global.sprite[0] = spr_null //Loading bg
-global.sprite[1] = spr_null //icon
+global.sprite[0] = spr_null //icon
 #endregion
 
 #region Backgrounds
+global.wallpaper[0] = spr_null //Loading bg
+global.wallpaper[1] = spr_null //Wallpaper1
 #endregion
 
 #region Sounds
+
+//sounds no work rn due to gm not liking MP3s :(
+
 #endregion
 
 #endregion
