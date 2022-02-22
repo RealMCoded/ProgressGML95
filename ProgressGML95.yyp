@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0465908d-02a0-4cf5-81e9-3c671a22e6ed",
+            "Value": {
+                "id": "b98fe568-5b65-46c0-ada1-e4f42babbbb7",
+                "resourcePath": "datafiles_yy\\art\\skins\\CYRUS\\logo.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "10786ed6-0dd1-43cd-b00e-67d91eb4041e",
             "Value": {
                 "id": "61206c11-8b2d-4a0a-b79c-15167a051b5a",
@@ -244,14 +252,6 @@
                 "id": "fbb20519-dd2d-4dce-ab62-9a0f30656e47",
                 "resourcePath": "objects\\obj_btn_begin\\obj_btn_begin.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9371d27c-058c-4771-b0fa-2ccec4b48c14",
-            "Value": {
-                "id": "1cb61cbd-2d43-45df-b66d-9faafbb85030",
-                "resourcePath": "datafiles_yy\\art\\skins\\CYRUS\\logo.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
