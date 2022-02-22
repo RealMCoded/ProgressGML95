@@ -1,8 +1,12 @@
-randomize()
+//show funny log message just for fun haha :)
+show_debug_message("///////////////////////////////////////////////////////////////////////////\n//                                                                       //\n//                           PROGRESS GML 95                             //\n//                                                                       //\n///////////////////////////////////////////////////////////////////////////")
 
-//Does nothing rn but is nice to have rn
+randomize() //Randomization so the game isn't the same every time
+
 ini_open("save.ini")
 global.installLocation = ini_read_string("general", "installLocation","UNSPECIFIED")
+
+show_debug_message("INSTALL LOCATION: " + global.installLocation)
 
 if global.installLocation = "UNSPECIFIED"{
 	//Warn the user that they require a copy of the game
