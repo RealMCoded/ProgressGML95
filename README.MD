@@ -1,6 +1,8 @@
 # <img src="gameico.png" width="100" height="100">ProgressGML95
 
-Crappy [Progressbar95](https://progressbar95.fandom.com/wiki/Progressbar_95) clone in GameMaker Studio 2.2.5 (IDE 2.2.5.481 with Runtime 2.2.5.378) that i made for fun.
+Crappy [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) clone in GameMaker Studio 2.2.5 (IDE 2.2.5.481 with Runtime 2.2.5.378) that i made for fun.
+
+**Note: This project is not affiliated with [Spooky House Studios UG (haftungsbeschraenkt)](https://www.spookyhousestudios.com/) in any way. All assets (except the code) belong to them. This is simply a fan recreation.**
 
 ## Download
 
