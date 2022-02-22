@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1725da68-183e-4602-b20e-12a9fb48b298",
+            "Value": {
+                "id": "e41d7ad7-0b49-481f-a389-d87b449a92ef",
+                "resourcePath": "datafiles_yy\\wallpapers.desktop\\skins\\CYRUS\\sky.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1a20285e-b693-4ba4-b4e1-f4cbce24cb97",
             "Value": {
                 "id": "6733dc43-448e-4680-ba33-43caf09dcdcb",
@@ -87,6 +95,22 @@
             }
         },
         {
+            "Key": "23d4457a-6077-47bd-8e13-d74e626b1d3d",
+            "Value": {
+                "id": "93ffa1ff-b053-4358-a42b-c9b71225187e",
+                "resourcePath": "views\\23d4457a-6077-47bd-8e13-d74e626b1d3d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3391a827-d17e-425e-884e-051ac32561f7",
+            "Value": {
+                "id": "235571fa-b9e2-4b70-8f31-3e7441287898",
+                "resourcePath": "views\\3391a827-d17e-425e-884e-051ac32561f7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "34e14020-9d89-434e-9531-7ebe07864aba",
             "Value": {
                 "id": "30edd199-f826-4f5f-9891-0073b8b766aa",
@@ -99,6 +123,14 @@
             "Value": {
                 "id": "32536ae9-5aae-442d-a23a-1d010fd1a418",
                 "resourcePath": "views\\3762b60e-2f18-401b-9526-a518871997ee.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c2b409e-ab25-436d-86a6-650c88e233e8",
+            "Value": {
+                "id": "1957efaf-ad56-4333-afe8-88fa5f0812a7",
+                "resourcePath": "views\\4c2b409e-ab25-436d-86a6-650c88e233e8.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -175,10 +207,34 @@
             }
         },
         {
+            "Key": "7b285564-1189-430a-94bd-f5c34a2027a8",
+            "Value": {
+                "id": "09011872-0400-4b91-9a89-a3835518987f",
+                "resourcePath": "views\\7b285564-1189-430a-94bd-f5c34a2027a8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7d24ba56-9816-4a22-b3fe-ed90f02812d3",
             "Value": {
                 "id": "c5a16c22-4b78-4ba8-9f32-af14cf6a3527",
                 "resourcePath": "views\\7d24ba56-9816-4a22-b3fe-ed90f02812d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8718e831-ec10-425e-973b-318fb58dd3ac",
+            "Value": {
+                "id": "956eb2df-d6b2-404c-a812-3bfda70aecb7",
+                "resourcePath": "datafiles_yy\\art\\skins\\CYRUS\\progressbarpanel.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "8c7d73d5-f976-4f90-b051-b807c651e08b",
+            "Value": {
+                "id": "f2b824e5-2212-47d9-a158-1e338468f024",
+                "resourcePath": "views\\8c7d73d5-f976-4f90-b051-b807c651e08b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -188,6 +244,14 @@
                 "id": "fbb20519-dd2d-4dce-ab62-9a0f30656e47",
                 "resourcePath": "objects\\obj_btn_begin\\obj_btn_begin.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9371d27c-058c-4771-b0fa-2ccec4b48c14",
+            "Value": {
+                "id": "1cb61cbd-2d43-45df-b66d-9faafbb85030",
+                "resourcePath": "datafiles_yy\\art\\skins\\CYRUS\\logo.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -267,6 +331,14 @@
             "Value": {
                 "id": "f479e165-d490-458c-a788-fe1176cf599d",
                 "resourcePath": "views\\c70f6309-1433-4e60-b415-1d64299c8488.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8708247-b2a2-43dd-92c2-e415a0dae911",
+            "Value": {
+                "id": "b4ef79bd-8f58-4e81-8412-cb870928d3f8",
+                "resourcePath": "views\\c8708247-b2a2-43dd-92c2-e415a0dae911.yy",
                 "resourceType": "GMFolder"
             }
         },
