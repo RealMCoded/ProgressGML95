@@ -18,7 +18,7 @@ global.sprite[0] = sprite_add(global.installLocation + "\\art\\skins\\" + global
 
 sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
 
-sprite_collision_mask(spr_bar, false, 2, 30, 26, 349, 57, bboxkind_rectangular, 155)
+//TODO: FIX BAR COLISION
 
-//Go to the room.
+//Go to the room
 room_goto(rm_bootGraphic)

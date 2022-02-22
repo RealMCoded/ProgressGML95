@@ -11,3 +11,8 @@ draw_set_color(c_white)
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 draw_text(x+190, y+43, string(percent_disp) + "%")
+
+if DEBUG {
+	draw_set_color(c_red)
+	draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,1)
+}
