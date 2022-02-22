@@ -19,8 +19,9 @@ global.sprite[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\sk
 
 global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\logo.png", 1, 0, 0, 256, 128)
 
-sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22) 
+sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
 
+sprite_collision_mask(spr_bar, false, 2, 30, 26, 349, 57, bboxkind_rectangular, 155)
 //Go to the room.
 room_goto(rm_bootGraphic)
 //audio_play_sound_ext(global.installLocation + "\\sound\\starthdd.mp3", 3, 0) //gm can't play MP3s :(
