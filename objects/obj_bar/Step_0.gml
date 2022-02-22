@@ -20,7 +20,7 @@ if place_meeting(x, y, obj_seg){
 	_i = instance_place(x, y, obj_seg)
 	
 	switch _i.type {
-		case 2: {percent--; percent_disp-=5} break; //Minus
+		case 2: {if percent !=0 {percent--; percent_disp-=5}} break; //Minus
 		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break; //x2
 		case 4: {game_restart()} break; //Red
 		case 5: {} break; //null
