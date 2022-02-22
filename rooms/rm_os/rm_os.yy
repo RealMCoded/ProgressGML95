@@ -100,7 +100,7 @@
             "id": "1d744eff-4de5-484c-be24-02b56f1b11d5",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4286611456 },
+            "colour": { "Value": 4288256409 },
             "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
