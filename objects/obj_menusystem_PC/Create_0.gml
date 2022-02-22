@@ -7,8 +7,8 @@ selected = 0 //can be a int for ease of use
 
 daopt=""
 
-menuRange=2
+menuRange=3
 
 isBooting=0
 
-text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]\n\n[TEST] Custom [s2]"
+text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]\n\nCyrus-OS [s2]\n\n[TEST] Custom [s3]"
