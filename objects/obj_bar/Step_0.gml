@@ -16,6 +16,7 @@ else {
    }
 }
 
+//Normal segment checks
 if place_meeting(x, y, obj_seg){
 	_i = instance_place(x, y, obj_seg)
 	
@@ -43,7 +44,6 @@ if place_meeting(x, y, obj_seg_rnd){
 		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break; //x2
 		case 4: {game_restart()} break; //Red
 		case 5: {} break; //null
-		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break; //Green
 		default: {seg[percent] = _type; percent++; percent_disp+=5} break; //Any other segment
 	}
 }
