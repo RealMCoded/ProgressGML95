@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "dc05344c-6e6f-40b8-a4f5-b0f7544c4f34",
+            "Value": {
+                "id": "17701934-1f02-4134-a904-21448aab3b37",
+                "resourcePath": "sprites\\spr_bar_colision\\spr_bar_colision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3d50619-edf7-42e8-a7dd-7584b476be46",
             "Value": {
                 "id": "108eafd6-f599-42ea-aa83-5207ef47828d",
