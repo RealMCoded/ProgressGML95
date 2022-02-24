@@ -44,7 +44,7 @@ if place_meeting(x, y, obj_seg_rnd){
 		case 4: {game_restart()} break; //Red
 		case 5: {} break; //null
 		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break; //Green
-		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break; //Any other segment
+		default: {seg[percent] = _type; percent++; percent_disp+=5} break; //Any other segment
 	}
 }
 
@@ -56,5 +56,8 @@ if percent > 19 {
 	ini_open("save.ini")
 	ini_write_real(global.system, "level", global.level)
 	ini_close()
-	room_restart()
+	instance_destroy()
+	instance_destroy(obj_seg)
+	instance_create_layer(room_width/2, room_height/2, layer, obj_bar)
+	
 }
