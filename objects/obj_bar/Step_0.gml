@@ -53,14 +53,11 @@ if place_meeting(x, y, obj_seg_rnd){
 //win checks
 if percent > 19 {
 	
-	//TEMPORARY WIN CODE. REWORK THIS!
-	global.level++
-	ini_open("save.ini")
-	ini_write_real(global.system, "level", global.level)
-	ini_close()
-	instance_destroy()
+	instance_destroy(spawner)
 	instance_destroy(obj_seg)
-	instance_create_layer(room_width/2, room_height/2, layer, obj_bar)
-	
+	drag = false
+	x = lerp(x, 480, 0.1)
+	y = lerp(y, 128, 0.1)
+	if alarm[0] = -1 alarm[0] = room_speed * 1.5
 }
 }

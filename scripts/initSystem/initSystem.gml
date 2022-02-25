@@ -13,11 +13,13 @@ if global.system = "CYRUS" global.installLocation = program_directory //ez work 
 //Define assets
 global.wallpaper[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\sky.png", 1, 0, 1, 0, 0)
 
+
+//Set wallpaper
 if file_exists(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.png"){
 	global.wallpaper[1] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.png", 1, 0, 1, 0, 0) 
 } else if file_exists(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.jpg"){
 	global.wallpaper[1] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system +"\\wallpaper1.jpg", 1, 0, 1, 0, 0) 
-}else {
+} else { //If no file is found just use the loading screen png
 	global.wallpaper[1] = global.wallpaper[0]
 }
 
@@ -26,8 +28,6 @@ global.sprite[0] = sprite_add(global.installLocation + "\\art\\skins\\" + global
 global.sprite[1] = sprite_add(global.installLocation + "\\art\\skins\\" + global.system +"\\gui.png", 1, 0, 0, 0, 0)
 
 sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
-
-//TODO: FIX BAR COLISION
 
 //Go to the room
 draw_set_font(global.font[1])
