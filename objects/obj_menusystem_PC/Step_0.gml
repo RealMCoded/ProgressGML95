@@ -21,7 +21,8 @@ if key_next = 1 and isBooting=0 {
 	switch selected {
 		case 0: text = "Starting Progressbar 95..." break;
 		case 1: text = "Starting Progressbar 95 Plus..." break;
-		case 2: text = "Starting Cyrus-OS Version 3.1..." break;
+		case 2: text = "Starting Progressbar 98..." break;
+		case 3: text = "Starting Cyrus-OS Version 3.1..." break;
 		default: text = "staring a system that has not been defined yet whoops" break;
 	}
 	alarm[0] = room_speed * 1
