@@ -27,7 +27,7 @@ if place_meeting(x, y, obj_seg){
 		case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10} break; //x2
 		case 4: {game_restart()} break; //Red
 		case 5: {} break; //null
-		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20} break; //Green
+		case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20; percent_disp=100} break; //Green
 		default: {seg[percent] = _i.type; percent++; percent_disp+=5} break; //Any other segment
 	}
 
@@ -52,7 +52,6 @@ if place_meeting(x, y, obj_seg_rnd){
 
 //win checks
 if percent > 19 {
-	
 	instance_destroy(spawner)
 	instance_destroy(obj_seg)
 	drag = false

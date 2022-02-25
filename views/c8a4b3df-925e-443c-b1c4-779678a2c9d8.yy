@@ -10,7 +10,8 @@
         "5cee46fd-35c9-4af1-b3e1-f935e6c6c8f7",
         "94c5ab00-90ba-4092-837d-a5f54ccf97b0",
         "66c33692-027e-4778-b03b-1a17517aef8d",
-        "8fa282f5-df56-4d44-8d32-8598d0f2d37e"
+        "8fa282f5-df56-4d44-8d32-8598d0f2d37e",
+        "4b40035e-f662-4d5b-bc63-8f05764114b0"
     ],
     "filterType": "GMObject",
     "folderName": "Game Elements",
