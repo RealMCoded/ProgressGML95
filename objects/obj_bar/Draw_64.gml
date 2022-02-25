@@ -8,4 +8,4 @@ if DEBUG {
 }
 
 draw_set_halign(fa_center)
-draw_text(room_width/2, 32, "Best: [placeholder]\nLevel " + string(global.level))
+draw_text(room_width/2, 32, "Level " + string(global.level))
