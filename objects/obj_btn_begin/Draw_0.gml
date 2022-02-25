@@ -7,5 +7,6 @@ draw_text_transformed_color(x+34, y+15, "Begin", 0.9, 0.9, 0, c_black, c_black, 
 
 //draw menu (hell)
 if clicked {
-	draw_sprite_part(global.sprite[1], 0, 512, 182, 320, 330, x, y-330)	
+	draw_sprite_part(global.sprite[1], 0, 512, 182, 320, 330, 0, y-340)	
+	draw_text(room_width/2, room_height/2, "===PAUSED===")
 }

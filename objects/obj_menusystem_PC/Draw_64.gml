@@ -13,7 +13,7 @@ for(var i=0; i < menuRange+1; i++) {
 draw_text_color(x, y, daopt, c_white, c_white, c_white, c_white, 1)
 
 
-draw_text(16, 16, "ProgressGML95 - Recreation created by stuartt_mcoded. Original game created by icoeye.")
+draw_text(16, 16, "ProgressGML95 - Recreation created by stuartt_mcoded. Original game created by icoeye.\nBuild Date: " + date_date_string(GM_build_date) + " " + date_time_string(GM_build_date))
 
 draw_set_halign(fa_center)
 draw_text(room_width/2, 640, "Game install location: " + global.installLocation + "\n\n[DEL] Reset location")

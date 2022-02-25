@@ -3,6 +3,8 @@ show_debug_message("////////////////////////////////////////////////////////////
 
 randomize() //Randomization so the game isn't the same every time
 
+global.pause=0
+
 ini_open("save.ini")
 global.installLocation = ini_read_string("general", "installLocation","UNSPECIFIED")
 
@@ -27,9 +29,9 @@ if global.installLocation = "UNSPECIFIED"{
 }
 ini_close()
 
-#region Load Assets
+#region Load Assets - ALL OF THESE ARE PLACEHOLDERS AT FIRST
 
-#region Sprites - ALL OF THESE ARE PLACEHOLDERS AT FIRST
+#region Sprites
 global.sprite[0] = spr_null //Loading icon
 global.sprite[1] = spr_null //GUI
 #endregion

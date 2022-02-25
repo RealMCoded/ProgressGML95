@@ -1,5 +1,7 @@
 /// @description
 
+if !global.pause {
+
 //move the bar
 if (!drag) {
    if (mouse_check_button(mb_left)) {
@@ -60,4 +62,5 @@ if percent > 19 {
 	instance_destroy(obj_seg)
 	instance_create_layer(room_width/2, room_height/2, layer, obj_bar)
 	
+}
 }
