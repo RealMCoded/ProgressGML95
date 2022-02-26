@@ -11,4 +11,6 @@ menuRange=4
 
 isBooting=0
 
+nrg = sprite_add(global.installLocation + "\\art\\energy.png", 1, 0, 0, 0, 0)
+
 text = "===SELECT SYSTEM===\n\n\nProgressbar 95 [s0]\n\nProgressbar 95 Plus [s1]\n\nProgressbar 98 [s2]\n\nCyrus-OS Version 3.1 [s3]\n\n[TEST] Custom [s4]"

@@ -17,3 +17,5 @@ draw_text(16, 16, "ProgressGML95 - Recreation created by stuartt_mcoded. Origina
 
 draw_set_halign(fa_center)
 draw_text(room_width/2, 640, "Game install location: " + global.installLocation + "\n\n[DEL] Reset location")
+
+draw_sprite(nrg, 0, room_width-128, 0)
