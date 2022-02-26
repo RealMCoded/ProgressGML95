@@ -1,7 +1,7 @@
 /// @description
 
 if !global.pause {
-rnd = irandom_range(1,100)
+rnd = irandom_range(1,(100-(global.level/2)))
 rnd2 = irandom_range(1,100)
 x = random_range(-32, room_width+32)
 

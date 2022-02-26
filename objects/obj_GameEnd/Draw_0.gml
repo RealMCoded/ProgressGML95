@@ -10,4 +10,4 @@ draw_text_color(x+30, y+64, "Game Completed!", c_black, c_black, c_black, c_blac
 draw_text_color(x+32, y+128, string(bseg) + "%", $7F0000, $7F0000, $7F0000, $7F0000, 1)
 draw_text_color(x+96, y+128, string(oseg) + "%", $1E93F7, $1E93F7, $1E93F7, $1E93F7, 1)
 draw_text_color(x+16, y+24, "u win :D", c_white, c_white, c_white, c_white, 1)
-draw_text_color(x+16, y+160, "Click anywhere\nto continue.", c_white, c_white, c_white, c_white, 1)
+draw_text_color(x+16, y+160, "Click anywhere\nto continue.", c_black, c_black, c_black, c_black, 1)

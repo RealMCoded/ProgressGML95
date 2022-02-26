@@ -5,16 +5,6 @@
     "name": "spawner",
     "eventList": [
         {
-            "id": "874eb70b-f6ec-41e4-8a5c-4c1bb4b309e9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5cee46fd-35c9-4af1-b3e1-f935e6c6c8f7"
-        },
-        {
             "id": "ef38ec70-af6d-49a1-a2bb-5aea3221684e",
             "modelName": "GMEvent",
             "mvc": "1.0",
