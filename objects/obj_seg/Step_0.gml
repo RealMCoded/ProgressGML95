@@ -8,5 +8,7 @@ if type=6 {
 	y+=5+(global.level/20)
 }
 
+x+=random_range(-(global.level/20), (global.level/20))
+
 if y > 720 instance_destroy()
 }
