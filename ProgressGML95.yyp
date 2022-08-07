@@ -14,6 +14,7 @@
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},"order":1,},
     {"id":{"name":"obj_seg","path":"objects/obj_seg/obj_seg.yy",},"order":3,},
     {"id":{"name":"obj_seg_rnd","path":"objects/obj_seg_rnd/obj_seg_rnd.yy",},"order":5,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":5,},
     {"id":{"name":"spawner","path":"objects/spawner/spawner.yy",},"order":7,},
     {"id":{"name":"obj_popup_spawn","path":"objects/obj_popup_spawn/obj_popup_spawn.yy",},"order":9,},
     {"id":{"name":"obj_popup","path":"objects/obj_popup/obj_popup.yy",},"order":11,},

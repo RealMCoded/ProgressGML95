@@ -1,6 +1,12 @@
 function initSystem(system) {
 
 	//Define the system style
+	
+	global.sys = {
+		id: system,
+		style: 0
+	}
+	
 	global.system = argument[0]
 
 	//Load save data for that system

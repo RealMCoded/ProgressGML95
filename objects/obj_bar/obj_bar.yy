@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_bar_colision",
     "path": "sprites/spr_bar_colision/spr_bar_colision.yy",
