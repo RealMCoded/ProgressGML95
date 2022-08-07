@@ -34,6 +34,7 @@ ini_close()
 #region Sprites
 global.sprite[0] = spr_null //Loading icon
 global.sprite[1] = spr_null //GUI
+global.sprite[2] = spr_null //Window
 #endregion
 
 #region Backgrounds

@@ -1,5 +1,4 @@
-///@param system
-function initSystem() {
+function initSystem(system) {
 
 	//Define the system style
 	global.system = argument[0]
@@ -30,9 +29,22 @@ function initSystem() {
 
 	sprite_replace(spr_bar, global.installLocation + "\\art\\skins\\" + global.system +"\\progressbarpanel.png", 1, 0, 0, 66, 22)
 
+	global.sprite[2] = sprite_add_from_sprite(global.sprite[1], 210, 80, 184, 184)
+	
+	//Ser 9 slice
+	var _nineslice = sprite_nineslice_create();
+
+	_nineslice.enabled = true;
+	_nineslice.left = 6;
+	_nineslice.right = 6;
+	_nineslice.top = 45;
+	_nineslice.bottom = 5;
+
+	sprite_set_nineslice(global.sprite[2], _nineslice);
+
+	//draw_sprite_part(global.sprite[1], 0, 210, 80, 184, 184, x, y)
+
 	//Go to the room
 	draw_set_font(global.font[1])
 	room_goto(rm_bootGraphic)
-
-
 }
