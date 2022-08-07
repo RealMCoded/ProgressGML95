@@ -4,7 +4,7 @@
 # ProgressGML95
 </div>
 
-Crappy [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) clone in GameMaker Studio 2.2.5 (IDE 2.2.5.481 with Runtime 2.2.5.378) that i made for fun.
+Crappy [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) clone in GameMaker that i made for fun.
 
 **Note: This project is not affiliated with [Spooky House Studios UG (haftungsbeschraenkt)](https://www.spookyhousestudios.com/) in any way. All assets (except the code) belong to them. This is simply a fan recreation.**
 
@@ -18,6 +18,6 @@ This is to prevent copyright issues. So instead of me cloning the Progressbar95 
 
 ## Building
 
-To build, you need to use GameMaker Studio 2 (i used IDE 2.2.5.481 with Runtime 2.2.5.378, but newer versions *should* work).
+To build, you need to use the newest version of GameMaker. My main target is for Windows, but other desktop targets should work as well.
 
 Download/clone this repository and open it with GameMaker Studio 2 and press "Run".
