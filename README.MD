@@ -1,4 +1,8 @@
-# <img src="gameico.png" width="100" height="100">ProgressGML95
+<div align="center">
+<img src="./options/main/template_icon.png" width="100" height="100" alt="The Progressbar95 logo but with a Game Maker logo cutout.">
+
+# ProgressGML95
+</div>
 
 Crappy [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) clone in GameMaker Studio 2.2.5 (IDE 2.2.5.481 with Runtime 2.2.5.378) that i made for fun.
 
