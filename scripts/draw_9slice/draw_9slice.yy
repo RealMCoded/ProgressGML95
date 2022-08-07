@@ -1,8 +1,12 @@
 {
-    "id": "1df56d3a-f1fa-45b8-8028-8c2b710232ee",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "draw_9slice",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "draw_9slice",
+  "tags": [],
+  "resourceType": "GMScript",
 }
