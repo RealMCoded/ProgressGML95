@@ -2,7 +2,7 @@
 //TEMPORARY WIN CODE. REWORK THIS!
 global.level++
 ini_open("save.ini")
-ini_write_real(global.system, "level", global.level)
+ini_write_real(global.system.id, "level", global.level)
 ini_close()
 instance_destroy()
 	
