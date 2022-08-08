@@ -18,4 +18,10 @@ draw_text(16, 16, "ProgressGML95 - Recreation created by stuartt_mcoded. Origina
 draw_set_halign(fa_center)
 draw_text(room_width/2, 640, "Game install location: " + global.installLocation + "\n\n[DEL] Reset location")
 
+if global.useSounds {
+	draw_text_color(room_width/2, 700, "Sounds are enabled!", c_lime, c_lime, c_lime, c_lime, 1)
+} else {
+	draw_text_color(room_width/2, 700, "Sounds are disabled. Use the sound converter utility to enable them.", c_red, c_red, c_red, c_red, 1)
+}
+
 draw_sprite(nrg, 0, room_width-128, 0)

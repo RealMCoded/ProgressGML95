@@ -29,6 +29,8 @@ if global.installLocation = "UNSPECIFIED"{
 }
 ini_close()
 
+global.useSounds = directory_exists("sounds")
+
 #region Load Assets - ALL OF THESE ARE PLACEHOLDERS AT FIRST
 
 #region Sprites
@@ -44,7 +46,7 @@ global.wallpaper[1] = spr_null //Wallpaper1
 
 #region Sounds
 
-//sounds no work rn due to gm not liking MP3s :(
+//TODO: Preload common sounds
 
 #endregion
 
