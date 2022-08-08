@@ -2,6 +2,10 @@
 //draw_self()
 for (var i = positions-1; i > 0; i--;) {
 	draw_sprite_part(sprite_index, 0, 65, 21, 380, 86, pos_x[i], pos_y[i])
+	for(var j=0; j < percent; j++) {
+		draw_sprite(spr_seg, seg[j], (pos_x[i]+30)+j*16, pos_y[i]+26)
+	}
+	//draw_text(pos_x[i]+190, pos_y[i]+43, string(percent_disp) + "%")
 }
 draw_sprite_part(sprite_index, 0, 65, 21, 380, 86, x, y)
 
