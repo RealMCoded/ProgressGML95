@@ -24,4 +24,5 @@ if global.useSounds {
 	draw_text_color(room_width/2, 700, "Sounds are disabled. Use the sound converter utility to enable them.", c_red, c_red, c_red, c_red, 1)
 }
 
-draw_sprite(nrg, 0, room_width-128, 0)
+//draw_sprite(nrg, 0, room_width-128, 0)
+draw_sprite_ext(nrg, 0, room_width-180, 0, 1.5, 1.5, 0, c_white, 1)
