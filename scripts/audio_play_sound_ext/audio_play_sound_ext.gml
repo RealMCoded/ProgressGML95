@@ -1,12 +1,8 @@
-/// @description audio_play_sound_ext(filename, priority, loop);
-/// @param filename
-/// @param priority
-/// @param loop
-function audio_play_sound_ext(argument0, argument1, argument2) {
+function audio_play_sound_ext(filename, priority, loop) {
 
-	mus = audio_create_stream(argument0) //create audio stream
+	var mus = audio_create_stream(filename) //create audio stream
 
-	audio_play_sound(mus, argument1, argument2) //play the created stream
+	audio_play_sound(mus, priority, loop) //play the created stream
 
 
 }

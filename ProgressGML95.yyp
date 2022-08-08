@@ -77,6 +77,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/art/skins/CYRUS","resourceVersion":"1.0","name":"logo.png","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/art/skins/CYRUS","resourceVersion":"1.0","name":"gui.png","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/art","resourceVersion":"1.0","name":"osloading.png","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"sound-converter-win.bat","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.6.1.26",
