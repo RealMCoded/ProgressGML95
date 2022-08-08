@@ -1,6 +1,6 @@
 /// @description
 
-draw_sprite_part_ext(global.sprite[1], 0, 136, 336, 64, 58, 0, 662, 20, 1, c_white, 1)
+draw_sprite_part_ext(global.sprite[1], 0, 136, 336, 64, 58, 0, 680, 20, 1, c_white, 1)
 
 if !clicked draw_sprite_part_ext(global.sprite[1], 0, 12, 216, 122, 44, x, y, 0.7, 0.7, c_white, 1) else draw_sprite_part_ext(global.sprite[1], 0, 12, 284, 122, 44, x, y, 0.7, 0.7, c_white, 1)
 
