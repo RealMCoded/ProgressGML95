@@ -39,10 +39,10 @@ function initSystem(system) {
 	var _nineslice = sprite_nineslice_create();
 
 	_nineslice.enabled = true;
-	_nineslice.left = 18;
-	_nineslice.right = 18;
+	_nineslice.left = 60;
+	_nineslice.right = 60;
 	_nineslice.top = 60;
-	_nineslice.bottom = 18;
+	_nineslice.bottom = 60;
 
 	sprite_set_nineslice(global.sprite[2], _nineslice);
 
