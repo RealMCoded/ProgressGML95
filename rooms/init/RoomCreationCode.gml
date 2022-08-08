@@ -46,7 +46,11 @@ global.wallpaper[1] = spr_null //Wallpaper1
 
 #region Sounds
 
-//TODO: Preload common sounds
+//Preload common sounds
+global.sound[0] = audio_create_stream("sounds\\jump1.ogg")
+global.sound[1] = audio_create_stream("sounds\\jump3.ogg")
+global.sound[2] = audio_create_stream("sounds\\jump2.ogg")
+global.sound[3] = audio_create_stream("sounds\\jump5.ogg")
 
 #endregion
 
