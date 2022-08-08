@@ -3,6 +3,7 @@ title ProgressGML95 Sound Converter Tool
 echo.
 echo.
 echo ProgressGML95 Sound Converter Tool
+echo For a full tutorial, check out https://github.com/Progressbar-Discord-Server/ProgressGML95#how-do-i-get-sound-working
 echo.
 echo.
 
