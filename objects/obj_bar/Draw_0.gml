@@ -1,5 +1,8 @@
 /// @description
 //draw_self()
+for (var i = positions-1; i > 0; i--;) {
+	draw_sprite_part(sprite_index, 0, 65, 21, 380, 86, pos_x[i], pos_y[i])
+}
 draw_sprite_part(sprite_index, 0, 65, 21, 380, 86, x, y)
 
 //Draw segments
