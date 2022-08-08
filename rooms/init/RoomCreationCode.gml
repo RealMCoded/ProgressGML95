@@ -60,4 +60,6 @@ global.font[1] = font_add(global.installLocation + "\\Fonts\\progresspixel.ttf",
 
 #endregion
 
+window_set_caption("ProgressGML95 [" + version + "]")
+
 room_goto_next()

@@ -1,2 +1,2 @@
 #macro DEBUG debug_mode
-#macro version "dev.0.0.1"
+#macro version "pre-alpha-10"
