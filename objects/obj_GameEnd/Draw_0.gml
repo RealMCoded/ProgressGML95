@@ -1,4 +1,5 @@
 /// @description
+draw_sprite_tiled(spr_bg_checkers, 0, 0, 0)
 draw_self()
 //draw_sprite_part(global.sprite[1], 0, 210, 80, 184, 184, x, y)
 

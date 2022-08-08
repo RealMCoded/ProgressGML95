@@ -16,6 +16,7 @@
     {"id":{"name":"obj_seg_rnd","path":"objects/obj_seg_rnd/obj_seg_rnd.yy",},"order":5,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":5,},
     {"id":{"name":"spawner","path":"objects/spawner/spawner.yy",},"order":7,},
+    {"id":{"name":"spr_bg_checkers","path":"sprites/spr_bg_checkers/spr_bg_checkers.yy",},"order":4,},
     {"id":{"name":"obj_popup_spawn","path":"objects/obj_popup_spawn/obj_popup_spawn.yy",},"order":9,},
     {"id":{"name":"obj_popup","path":"objects/obj_popup/obj_popup.yy",},"order":11,},
     {"id":{"name":"obj_btn_begin","path":"objects/obj_btn_begin/obj_btn_begin.yy",},"order":13,},
