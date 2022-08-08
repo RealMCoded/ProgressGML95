@@ -52,11 +52,12 @@ if !global.pause {
 
 	//win checks
 	if percent > 19 {
+		if instance_exists(spawner) audio_play_sound_ext("sounds\\fanfare.ogg", 10, 0)
 		instance_destroy(spawner)
 		instance_destroy(obj_seg)
 		drag = false
 		x = lerp(x, 480, 0.1)
 		y = lerp(y, 128, 0.1)
-		if alarm[0] = -1 alarm[0] = room_speed * 1.5
+		if alarm[0] = -1 alarm[0] = room_speed * 2
 	}
 }

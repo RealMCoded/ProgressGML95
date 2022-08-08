@@ -1,5 +1,5 @@
 /// @description
-
+audio_play_sound_ext("sounds\\savetohdd.ogg", 10, 0)
 sprite_index = global.sprite[2]
 
 image_xscale = 2
