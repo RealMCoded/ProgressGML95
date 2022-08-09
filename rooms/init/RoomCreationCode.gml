@@ -53,7 +53,8 @@ global.sound = {
 	],
 	collect_segment_correct_2: audio_create_stream("sounds\\jump2.ogg"),
 	//collect_segment_wrong: audio_create_stream("sounds\\jump3.ogg"),
-	collect_segment_minus: audio_create_stream("sounds\\jump5.ogg")
+	collect_segment_minus: audio_create_stream("sounds\\jump5.ogg"),
+	mainGameMus: audio_create_stream("sounds\\pb_theme_mp3.ogg")
 }
 
 global.font = {

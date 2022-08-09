@@ -7,6 +7,7 @@
     {"id":{"name":"spr_popup_annoying","path":"sprites/spr_popup_annoying/spr_popup_annoying.yy",},"order":9,},
     {"id":{"name":"spr_pie","path":"sprites/spr_pie/spr_pie.yy",},"order":11,},
     {"id":{"name":"spr_btn_begin","path":"sprites/spr_btn_begin/spr_btn_begin.yy",},"order":13,},
+    {"id":{"name":"obj_mediaplayer","path":"objects/obj_mediaplayer/obj_mediaplayer.yy",},"order":16,},
     {"id":{"name":"spr_null","path":"sprites/spr_null/spr_null.yy",},"order":3,},
     {"id":{"name":"initSystem","path":"scripts/initSystem/initSystem.yy",},"order":1,},
     {"id":{"name":"sprite_add_from_sprite","path":"scripts/sprite_add_from_sprite/sprite_add_from_sprite.yy",},"order":4,},
