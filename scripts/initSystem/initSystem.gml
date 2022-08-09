@@ -12,7 +12,7 @@ function initSystem(system) {
 	global.level = ini_read_real(global.system.id, "level", 1)
 	ini_close()
 
-	if global.system.id = "CYRUS" global.installLocation = program_directory //ez work around ha
+	if global.system.id = "CYRUS" global.installLocation = working_directory + "//MODS" //ez work around ha
 
 	//Define assets
 	global.wallpaper[0] = sprite_add(global.installLocation + "\\wallpapers.desktop\\skins\\" + global.system.id +"\\sky.png", 1, 0, 1, 0, 0)
