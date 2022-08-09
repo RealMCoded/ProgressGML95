@@ -6,6 +6,7 @@ mediaPlayerAssets = {
 	audioBar: sprite_add(global.installLocation + "\\art\\app\\progamp_signal.png", 1, 0, 0, 0, 0),
 	buttonBase: sprite_add(global.installLocation + "\\art\\app\\progamp_button.png", 1, 0, 0, 0, 0),
 	buttonPlay: sprite_add(global.installLocation + "\\art\\app\\progamp_play.png", 1, 0, 0, 0, 0),
+	buttonStop: sprite_add(global.installLocation + "\\art\\app\\progamp_stop.png", 1, 0, 0, 0, 0)
 }
 
 tx = 0
