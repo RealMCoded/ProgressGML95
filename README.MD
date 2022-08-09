@@ -4,13 +4,13 @@
 # ProgressGML95
 </div>
 
-Crappy [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) clone in GameMaker that i made for fun.
+A clone of [Progressbar95](https://www.spookyhousestudios.com/s/2021/09/21/progressbar95-retro-arcade/) made in GameMaker that i created for fun.
 
-**Note: This project is not affiliated with [Spooky House Studios UG (haftungsbeschraenkt)](https://www.spookyhousestudios.com/) in any way. All assets (except the code) belong to them. This is simply a fan recreation.**
+**Note: This project is not affiliated with [Spooky House Studios UG (haftungsbeschraenkt)](https://www.spookyhousestudios.com/) in any way. All assets (except for the code) belong to them. This is simply a fan recreation.**
 
 ## Download
 
-You can download the game [here](https://github.com/RealMCoded/ProgressGML95/releases). I release an update whenever i want, there is no fixed times for when i update.
+You can download the game from [here](https://github.com/RealMCoded/ProgressGML95/releases). I release an update whenever i want, there is no fixed times for when i update.
 
 ## Why do i require a copy of Progressbar95 to play?
 
@@ -61,4 +61,4 @@ When you have the locaton entered, just press ENTER and it will do the rest!
 
 To build, you need to use the newest version of GameMaker. My main target is for Windows, but other desktop targets should work as well.
 
-Download/clone this repository and open it with GameMaker Studio 2 and press "Run".
+Download/clone this repository and open it with GameMaker and press "Run".
