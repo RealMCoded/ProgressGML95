@@ -3,7 +3,9 @@ sprite_index = sprite_add(global.installLocation + "\\art\\skins\\" + global.sys
 
 mediaPlayerAssets = {
 	baseWindow: sprite_add(global.installLocation + "\\art\\app\\progamp_panel1.png", 1, 0, 0, 50, 2),
-	audioBar: sprite_add(global.installLocation + "\\art\\app\\progamp_signal.png", 1, 0, 0, 0, 0)
+	audioBar: sprite_add(global.installLocation + "\\art\\app\\progamp_signal.png", 1, 0, 0, 0, 0),
+	buttonBase: sprite_add(global.installLocation + "\\art\\app\\progamp_button.png", 1, 0, 0, 0, 0),
+	buttonPlay: sprite_add(global.installLocation + "\\art\\app\\progamp_play.png", 1, 0, 0, 0, 0),
 }
 
 tx = 0

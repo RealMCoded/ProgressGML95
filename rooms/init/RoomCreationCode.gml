@@ -47,6 +47,7 @@ global.wallpaper = {
 
 //Preload common sounds
 global.sound = {
+	ambient: audio_create_stream("sounds\\ambient_bigrobot.ogg"),
 	collect_segment_general: [
 		audio_create_stream("sounds\\jump1.ogg"),
 		audio_create_stream("sounds\\jump3.ogg")
@@ -54,6 +55,7 @@ global.sound = {
 	collect_segment_correct_2: audio_create_stream("sounds\\jump2.ogg"),
 	//collect_segment_wrong: audio_create_stream("sounds\\jump3.ogg"),
 	collect_segment_minus: audio_create_stream("sounds\\jump5.ogg"),
+	click: audio_create_stream("sounds\\click.ogg"),
 	mainGameMus: audio_create_stream("sounds\\pb_theme_mp3.ogg")
 }
 
@@ -64,4 +66,6 @@ global.font = {
 
 window_set_caption("ProgressGML95 [" + version + "]")
 
+var my = audio_play_sound(global.sound.ambient, 1000, 1)
+audio_sound_gain(my, 0.5, 100)
 room_goto_next()

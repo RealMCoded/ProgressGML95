@@ -14,11 +14,11 @@ if open {
 		byeah+=audioBars[i]
 	}
 	draw_set_color(c_white)
-}
-
-if round(byeah) = 0 {
-	for(var i=0; i < 10; i++){
-		audioBars[i] = random_range(0, 1)	
+	
+	if round(byeah) = 0 {
+		for(var i=0; i < 10; i++){
+			audioBars[i] = random_range(0, 1)	
+		}
 	}
 }
 

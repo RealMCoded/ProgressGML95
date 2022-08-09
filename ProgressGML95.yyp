@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},"order":1,},
     {"id":{"name":"spr_bar_colision","path":"sprites/spr_bar_colision/spr_bar_colision.yy",},"order":3,},
+    {"id":{"name":"persist","path":"objects/persist/persist.yy",},"order":6,},
     {"id":{"name":"spr_seg","path":"sprites/spr_seg/spr_seg.yy",},"order":5,},
     {"id":{"name":"spr_gui","path":"sprites/spr_gui/spr_gui.yy",},"order":7,},
     {"id":{"name":"spr_popup_annoying","path":"sprites/spr_popup_annoying/spr_popup_annoying.yy",},"order":9,},
@@ -10,6 +11,7 @@
     {"id":{"name":"obj_mediaplayer","path":"objects/obj_mediaplayer/obj_mediaplayer.yy",},"order":16,},
     {"id":{"name":"spr_null","path":"sprites/spr_null/spr_null.yy",},"order":3,},
     {"id":{"name":"initSystem","path":"scripts/initSystem/initSystem.yy",},"order":1,},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":5,},
     {"id":{"name":"sprite_add_from_sprite","path":"scripts/sprite_add_from_sprite/sprite_add_from_sprite.yy",},"order":4,},
     {"id":{"name":"audio_play_sound_ext","path":"scripts/audio_play_sound_ext/audio_play_sound_ext.yy",},"order":3,},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},"order":1,},

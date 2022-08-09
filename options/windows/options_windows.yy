@@ -6,7 +6,7 @@
   "option_windows_product_info": "ProgressGML95",
   "option_windows_copyright_info": "(C)2022 stuartt_mcoded, Original Idea by icoeye",
   "option_windows_description_info": "ProgressGML95",
-  "option_windows_display_cursor": true,
+  "option_windows_display_cursor": false,
   "option_windows_icon": "${options_dir}/windows/icons/icon.ico",
   "option_windows_save_location": 1,
   "option_windows_splash_screen": "${base_options_dir}/windows/splash/splash.png",
