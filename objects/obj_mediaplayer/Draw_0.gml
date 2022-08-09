@@ -1,4 +1,5 @@
 /// @description
+var byeah = 0
 draw_self()
 draw_text(x-16, y+64, "Media Player")
 
@@ -6,8 +7,19 @@ if open {
 	draw_sprite_ext(mediaPlayerAssets.baseWindow, 0, xx, yy, 1.5, 1.5, 0, c_white, 1)
 	draw_set_color(#00ef00)
 	draw_text_transformed(xx+57, yy+51, "00:00", 1.5, 1.5, 0)
-	draw_text_transformed(xx+131, yy+66, "128", 1, 1, 0)
+	draw_text_transformed(xx+131, yy+66, "128", 0.8, 0.8, 0)
+	for(var i=0; i < 10; i++){
+		draw_sprite_ext(mediaPlayerAssets.audioBar, 0, xx+50+(i*6), yy+66, 1, audioBars[i], 0, c_white, 1)
+		if audioBars[i] > 0 audioBars[i] -= 0.05
+		byeah+=audioBars[i]
+	}
 	draw_set_color(c_white)
+}
+
+if round(byeah) = 0 {
+	for(var i=0; i < 10; i++){
+		audioBars[i] = random_range(0, 1)	
+	}
 }
 
 tx += -keyboard_check_pressed(vk_left) + keyboard_check_pressed(vk_right)
