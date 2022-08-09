@@ -1,9 +1,9 @@
 /// @description
 
 //Draw logo and bg
-draw_sprite_stretched_ext(global.wallpaper[0], 0, 0, 0, 1280, 720, c_white, 1)
+draw_sprite_stretched_ext(global.wallpaper.loading, 0, 0, 0, 1280, 720, c_white, 1)
 
-draw_sprite_stretched_ext(global.sprite[0], 0, (room_width/2)-256, (room_height/2)-128, 512, 256, c_white, 1)
+draw_sprite_stretched_ext(global.sprite.loading_icon, 0, (room_width/2)-256, (room_height/2)-128, 512, 256, c_white, 1)
 
 //Loading Progressbar
 pos+=0.1

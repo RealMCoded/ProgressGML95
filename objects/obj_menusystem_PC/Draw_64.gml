@@ -1,5 +1,5 @@
 /// @description
-draw_set_font(global.font[0])
+draw_set_font(global.font.DOSFont)
 draw_set_halign(fa_left)
 daopt = text
 

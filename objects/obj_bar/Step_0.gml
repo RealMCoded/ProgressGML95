@@ -23,12 +23,12 @@ if !global.pause {
 		_i = instance_place(x, y, obj_seg)
 	
 		switch _i.type {
-			case 2: {if percent !=0 {percent--; percent_disp-=5; audio_play_sound(global.sound[3], 10, 0)}} break; //Minus
-			case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound[0], 10, 0); audio_play_sound(global.sound[2], 10, 0)} break; //x2
+			case 2: {if percent !=0 {percent--; percent_disp-=5; audio_play_sound(global.sound.collect_segment_minus, 10, 0)}} break; //Minus
+			case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound.collect_segment_general[0], 10, 0); audio_play_sound(global.sound.collect_segment_correct_2, 10, 0)} break; //x2
 			case 4: {game_restart()} break; //Red
 			case 5: {} break; //null
 			case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20; percent_disp=100} break; //Green
-			default: {seg[percent] = _i.type; percent++; percent_disp+=5; audio_play_sound(global.sound[_i.type], 10, 0)} break; //Any other segment
+			default: {seg[percent] = _i.type; percent++; percent_disp+=5; audio_play_sound(global.sound.collect_segment_general[_i.type], 10, 0)} break; //Any other segment
 		}
 
 		instance_destroy(_i.id)
@@ -41,11 +41,11 @@ if !global.pause {
 		_type = irandom_range(0,5)
 	
 		switch _type {
-			case 2: {percent--; percent_disp-=5; audio_play_sound(global.sound[3], 10, 0)} break; //Minus
-			case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound[0], 10, 0); ; audio_play_sound(global.sound[1], 10, 0)} break; //x2
+			case 2: {percent--; percent_disp-=5; audio_play_sound(global.sound.collect_segment_minus, 10, 0)} break; //Minus
+			case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound.collect_segment_general[0], 10, 0); ; audio_play_sound(global.sound.collect_segment_correct_2, 10, 0)} break; //x2
 			case 4: {game_restart()} break; //Red
 			case 5: {} break; //null
-			default: {seg[percent] = _type; percent++; percent_disp+=5; audio_play_sound(global.sound[_type], 10, 0)} break; //Any other segment
+			default: {seg[percent] = _type; percent++; percent_disp+=5; audio_play_sound(global.sound.collect_segment_general[_i.type], 10, 0)} break; //Any other segment
 		}
 	}
 

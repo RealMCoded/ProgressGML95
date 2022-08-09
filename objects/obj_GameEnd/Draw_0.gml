@@ -1,7 +1,7 @@
 /// @description
 draw_sprite_tiled(spr_bg_checkers, 0, 0, 0)
 draw_self()
-//draw_sprite_part(global.sprite[1], 0, 210, 80, 184, 184, x, y)
+//draw_sprite_part(global.sprite.gui, 0, 210, 80, 184, 184, x, y)
 
 for(var i=0; i < 20; i++) {
 	draw_sprite(spr_seg, seg[i], (x+25)+i*16, y+128)

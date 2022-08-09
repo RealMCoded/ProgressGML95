@@ -34,31 +34,44 @@ global.useSounds = directory_exists("sounds")
 #region Load Assets - ALL OF THESE ARE PLACEHOLDERS AT FIRST
 
 #region Sprites
-global.sprite[0] = spr_null //Loading icon
-global.sprite[1] = spr_null //GUI
-global.sprite[2] = spr_null //Window
+global.sprite = {
+	loading_icon: spr_null,
+	gui: spr_null,
+	window: spr_null,
+	clippy_norm: spr_null
+}
 #endregion
 
 #region Backgrounds
-global.wallpaper[0] = spr_null //Loading bg
-global.wallpaper[1] = spr_null //Wallpaper1
+global.wallpaper = {
+	loading: spr_null,
+	wallpaper:[
+		spr_null
+	]
+}
 #endregion
 
 #region Sounds
 
 //Preload common sounds
-global.sound[0] = audio_create_stream("sounds\\jump1.ogg")
-global.sound[1] = audio_create_stream("sounds\\jump3.ogg")
-global.sound[2] = audio_create_stream("sounds\\jump2.ogg")
-global.sound[3] = audio_create_stream("sounds\\jump5.ogg")
+global.sound = {
+	collect_segment_general: [
+		audio_create_stream("sounds\\jump1.ogg"),
+		audio_create_stream("sounds\\jump3.ogg")
+	],
+	collect_segment_correct_2: audio_create_stream("sounds\\jump2.ogg"),
+	//collect_segment_wrong: audio_create_stream("sounds\\jump3.ogg"),
+	collect_segment_minus: audio_create_stream("sounds\\jump5.ogg")
+}
 
 #endregion
 
 #region fonts
 
-global.font[0] = font_add(global.installLocation + "\\Fonts\\DOSFont.ttf", 12, false, false, 32, 127) //DOSFont
-
-global.font[1] = font_add(global.installLocation + "\\Fonts\\progresspixel.ttf", 12, false, false, 32, 127) //progresspixel
+global.font = {
+	DOSFont: font_add(global.installLocation + "\\Fonts\\DOSFont.ttf", 12, false, false, 32, 127),
+	progresspixel: font_add(global.installLocation + "\\Fonts\\progresspixel.ttf", 12, false, false, 32, 127)
+}
 
 #endregion
 
