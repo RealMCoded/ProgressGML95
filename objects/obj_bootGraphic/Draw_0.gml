@@ -10,7 +10,7 @@ pos+=0.1
 
 if pos > 15 pos = 0
 
-draw_sprite_part_ext(anim, 0, 0, 40*round(pos), 640, 39, x, room_height-64, 2, 2.5, c_white, 1)
+draw_sprite_part_ext(anim, 0, 0, 40*round(pos), 640, 39, x, room_height-32, 2, 2.5, c_white, 1)
 
 //Intro Fade
 t-=0.007
