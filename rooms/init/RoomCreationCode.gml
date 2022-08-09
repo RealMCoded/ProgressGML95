@@ -67,5 +67,6 @@ global.font = {
 window_set_caption("ProgressGML95 [" + version + "]")
 
 var my = audio_play_sound(global.sound.ambient, 1000, 1)
-audio_sound_gain(my, 0.5, 100)
+audio_sound_gain(my, 0.5, 1000)
+cursor_sprite = spr_cursor
 room_goto_next()
