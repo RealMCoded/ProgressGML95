@@ -51,6 +51,7 @@ if !global.pause {
 
 	//win checks
 	if percent > 19 {
+		positions = 1
 		if instance_exists(spawner) audio_play_sound_ext("sounds\\fanfare.ogg", 10, 0)
 		instance_destroy(spawner)
 		instance_destroy(obj_seg)
