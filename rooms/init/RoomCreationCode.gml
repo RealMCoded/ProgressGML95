@@ -31,27 +31,19 @@ ini_close()
 
 global.useSounds = directory_exists("sounds")
 
-#region Load Assets - ALL OF THESE ARE PLACEHOLDERS AT FIRST
-
-#region Sprites
 global.sprite = {
 	loading_icon: spr_null,
 	gui: spr_null,
 	window: spr_null,
 	clippy_norm: spr_null
 }
-#endregion
 
-#region Backgrounds
 global.wallpaper = {
 	loading: spr_null,
 	wallpaper:[
 		spr_null
 	]
 }
-#endregion
-
-#region Sounds
 
 //Preload common sounds
 global.sound = {
@@ -64,18 +56,10 @@ global.sound = {
 	collect_segment_minus: audio_create_stream("sounds\\jump5.ogg")
 }
 
-#endregion
-
-#region fonts
-
 global.font = {
 	DOSFont: font_add(global.installLocation + "\\Fonts\\DOSFont.ttf", 12, false, false, 32, 127),
 	progresspixel: font_add(global.installLocation + "\\Fonts\\progresspixel.ttf", 12, false, false, 32, 127)
 }
-
-#endregion
-
-#endregion
 
 window_set_caption("ProgressGML95 [" + version + "]")
 
