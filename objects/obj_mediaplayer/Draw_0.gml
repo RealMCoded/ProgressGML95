@@ -1,6 +1,8 @@
 /// @description
 var byeah = 0
+playing = audio_is_playing(global.sound.mainGameMus)
 draw_self()
+draw_set_halign(fa_left)
 draw_text(x-16, y+64, "Media Player")
 
 if open {
@@ -15,10 +17,12 @@ if open {
 	draw_sprite_ext(mediaPlayerAssets.buttonBase, 0, xx+99, yy+98, 1.5, 1.5, 0, c_white, 1)
 	draw_sprite_ext(mediaPlayerAssets.buttonStop, 0, xx+99, yy+98, 1.5, 1.5, 0, c_white, 1)
 	
-	for(var i=0; i < 10; i++){
-		draw_sprite_ext(mediaPlayerAssets.audioBar, 0, xx+50+(i*6), yy+77, 1, -audioBars[i], 0, c_white, 1)
-		if audioBars[i] > 0 audioBars[i] -= 0.03
-		byeah+=audioBars[i]
+	if playing {
+		for(var i=0; i < 10; i++){
+			draw_sprite_ext(mediaPlayerAssets.audioBar, 0, xx+50+(i*6), yy+77, 1, -audioBars[i], 0, c_white, 1)
+			if audioBars[i] > 0 audioBars[i] -= 0.03
+			byeah+=audioBars[i]
+		}
 	}
 	draw_set_color(c_white)
 	
