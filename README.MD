@@ -62,3 +62,10 @@ When you have the locaton entered, just press ENTER and it will do the rest!
 To build, you need to use the newest version of GameMaker. My main target is for Windows, but other desktop targets should work as well.
 
 Download/clone this repository and open it with GameMaker and press "Run".
+
+## Reditribution
+
+You are free to redistribute ProgressGML95, as long as you follow some of these simple rules:
+- If you have made any modifications, make them open source!
+- Link back to this original repo (if it's a fork, you may link back to your fork.)
+- Do not include any of the original Progressbar95 assets in your redistributions.
