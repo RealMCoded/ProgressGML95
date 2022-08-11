@@ -63,7 +63,7 @@ To build, you need to use the newest version of GameMaker. My main target is for
 
 Download/clone this repository and open it with GameMaker and press "Run".
 
-## Reditribution
+## Redistribution
 
 You are free to redistribute ProgressGML95, as long as you follow some of these simple rules:
 - If you have made any modifications, make them open source!
