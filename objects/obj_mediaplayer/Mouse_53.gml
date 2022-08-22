@@ -7,7 +7,7 @@
 if open {
 	//Play
 	if point_in_rectangle(mouse_x, mouse_y, xx+21, yy+98, xx+44, yy+121) {
-		audio_play_sound(global.sound.mainGameMus, 1, 1)
+		if !audio_is_playing(global.sound.mainGameMus) audio_play_sound(global.sound.mainGameMus, 1, 1)
 	}
 	//Stop
 	if point_in_rectangle(mouse_x, mouse_y, xx+99, yy+98, xx+122, yy+121) {
