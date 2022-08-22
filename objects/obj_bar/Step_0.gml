@@ -21,17 +21,19 @@ if !global.pause {
 	//Normal segment checks
 	if place_meeting(x, y, obj_seg){
 		_i = instance_place(x, y, obj_seg)
-	
-		switch _i.type {
-			case 2: {if percent !=0 {percent--; percent_disp-=5; audio_play_sound(global.sound.collect_segment_minus, 10, 0)}} break; //Minus
-			case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound.collect_segment_general[0], 10, 0); audio_play_sound(global.sound.collect_segment_correct_2, 10, 0)} break; //x2
-			case 4: {game_restart()} break; //Red
-			case 5: {} break; //null
-			case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20; percent_disp=100} break; //Green
-			default: {seg[percent] = _i.type; percent++; percent_disp+=5; audio_play_sound(global.sound.collect_segment_general[_i.type], 10, 0)} break; //Any other segment
-		}
+		
+		if point_in_rectangle(_i.x, _i.y, x+30, y+26, x+30+(percent*16), y+26+32) {audio_play_sound(global.sound.missSeg, 10, 0); instance_destroy(_i.id)} else {
+			switch _i.type {
+				case 2: {if percent !=0 {percent--; percent_disp-=5; audio_play_sound(global.sound.collect_segment_minus, 10, 0)}} break; //Minus
+				case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound.collect_segment_general[0], 10, 0); audio_play_sound(global.sound.collect_segment_correct_2, 10, 0)} break; //x2
+				case 4: {game_restart()} break; //Red
+				case 5: {} break; //null
+				case 6: {for(var i=0; i < 20; i++) {seg[i] = 0} percent = 20; percent_disp=100} break; //Green
+				default: {seg[percent] = _i.type; percent++; percent_disp+=5; audio_play_sound(global.sound.collect_segment_general[_i.type], 10, 0)} break; //Any other segment
+			}
 
-		instance_destroy(_i.id)
+			instance_destroy(_i.id)
+		}
 	}
 
 	//Random segment checks
