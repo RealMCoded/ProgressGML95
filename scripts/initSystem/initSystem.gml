@@ -34,6 +34,8 @@ function initSystem(system) {
 
 	global.sprite.window = sprite_add_from_sprite(global.sprite.gui, 210, 80, 184, 184)
 	
+	global.sprite.clippy_norm = sprite_add(global.installLocation + "\\art\\skins\\" + global.system.id + "\\popupwindow2.png", 1, 0, 0, 0, 0)
+	
 	//Ser 9 slice
 	var _nineslice = sprite_nineslice_create();
 
