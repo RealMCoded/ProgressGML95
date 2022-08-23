@@ -22,7 +22,7 @@ if !global.pause {
 	if place_meeting(x, y, obj_seg){
 		_i = instance_place(x, y, obj_seg)
 		
-		if point_in_rectangle(_i.x, _i.y, x+30, y+26, x+30+(percent*16), y+26+32) {audio_play_sound(global.sound.missSeg, 10, 0); instance_destroy(_i.id)} else {
+		if point_in_rectangle(_i.x, _i.y, x+30, y+26, x+30+(percent*16), y+26+32) {audio_play_sound(global.sound.missSeg, 10, 0); /* TODO: PARTICLES */ instance_destroy(_i.id)} else {
 			switch _i.type {
 				case 2: {if percent !=0 {percent--; percent_disp-=5; audio_play_sound(global.sound.collect_segment_minus, 10, 0)}} break; //Minus
 				case 3: {seg[percent] = 0; seg[percent+1] = 0; percent+=2; percent_disp+=10; audio_play_sound(global.sound.collect_segment_general[0], 10, 0); audio_play_sound(global.sound.collect_segment_correct_2, 10, 0)} break; //x2
