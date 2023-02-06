@@ -1,4 +1,4 @@
-function audio_play_sound_ext(filename, priority, loop) {
+function audio_play_sound_from_file(filename, priority, loop) {
 
 	var mus = audio_create_stream(filename) //create audio stream
 

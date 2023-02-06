@@ -9,8 +9,7 @@ if !global.pause {
 	      mx = x - mouse_x;
 	      my = y - mouse_y;
 	   }
-	}
-	else {
+	} else {
 	   x = mouse_x + mx;
 	   y = mouse_y + my;
 	   if (!mouse_check_button(mb_left)) {
@@ -54,7 +53,7 @@ if !global.pause {
 	//win checks
 	if percent > 19 {
 		positions = 1
-		if instance_exists(spawner) audio_play_sound_ext("sounds\\fanfare.ogg", 10, 0)
+		if instance_exists(spawner) audio_play_sound_from_file("sounds\\fanfare.ogg", 10, 0)
 		instance_destroy(spawner)
 		instance_destroy(obj_seg)
 		drag = false

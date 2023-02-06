@@ -1,5 +1,5 @@
 /// @description
-audio_play_sound_ext("sounds\\starthdd.ogg", 10, 0)
+audio_play_sound_from_file("sounds\\starthdd.ogg", 10, 0)
 alarm[0] = room_speed*4
 t = 1
 
